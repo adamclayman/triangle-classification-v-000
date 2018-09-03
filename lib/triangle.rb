@@ -10,7 +10,7 @@ class Triangle
   def kind
     if ((self.s1 == self.s2) && (self.s2 == self.s3))
       return :equilateral
-    elsif ((self.s1 == self.s2) || (self.s2 == self.s3))
+    elsif ((self.s1 == self.s2) || (self.s2 == self.s3) || (self.s1 == self.s3))
       return :isosceles
     elsif ((self.s1 != self.s2) && (self.s2 != self.s3))
       return :scalene
