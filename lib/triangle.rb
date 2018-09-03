@@ -13,5 +13,6 @@ class Triangle
     elsif ((self.s1 == self.s2) || (self.s2 == self.s3))
       return :isosceles
     elsif ((self.s1 != self.s2) && (self.s2 != self.s3))
+      return :scalene
   end
 end
