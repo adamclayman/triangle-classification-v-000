@@ -18,7 +18,7 @@ class Triangle
   end
 
   def valid?
-    if ((self.s1 + self.s2 > self.s3) && (self.s2 + self.s3 > self.s1) && (self.s1 + self.s3 > self.s2))
+    if ((self.s1 + self.s2 > self.s3) && (self.s2 + self.s3 > self.s1) && (self.s1 + self.s3 > self.s2) && (self.s1 > 0) && (self.s2 > 0) && (self.s3 > 0))
       return true
     else
       return false
