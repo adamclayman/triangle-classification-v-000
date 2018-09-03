@@ -28,4 +28,7 @@ class Triangle
       return false
     end
   end
+
+  class TriangleError < StandardError
+  end
 end
