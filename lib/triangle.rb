@@ -6,5 +6,8 @@ class Triangle
     @s2 = s2
     @s3 = s3
   end
-  
+
+  def kind
+    if ((self.s1 == self.s2) && (self.s2 == self.s3))
+  end
 end
